@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="800dp"
+        android:layout_height="429dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="86dp"
+        android:background="#ffc759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/tv_name_achievement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.07"
+            android:text="成就名字成就"
+            android:textColor="#323246"
+            android:textSize="42sp"
+            tools:text="成就名字成就"
+            android:layout_marginTop="81dp"
+            android:layout_marginLeft="310dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_detail_achievement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textColor="#323246"
+            android:letterSpacing="0.07"
+            android:lineSpacingExtra="17sp"
+            tools:text="成就敘述成就敘述成就敘述成就敘述成就敘述成就敘述"
+            android:layout_marginTop="123dp"
+            android:layout_marginLeft="310dp"
+            />
+
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1ff5da"
+            android:textSize="36sp"
+            android:textColor="#223c48"
+            android:letterSpacing="0.07"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="319dp"
+            android:layout_marginLeft="299dp"
+            android:text="關閉" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
